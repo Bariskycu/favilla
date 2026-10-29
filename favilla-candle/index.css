@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar for luxury feel */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F2F0EB;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E0D5C7;
+  border-radius: 3px;
+}
+
+body {
+  background-color: #F2F0EB;
+  color: #1A1A1A;
+}
